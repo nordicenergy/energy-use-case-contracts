@@ -1,0 +1,15 @@
+{
+  "name": "sidechain-contracts",
+  "version": "1.0.0",
+  "scripts": {
+    "truffle": "truffle"
+  },
+  "dependencies": {
+    "quorum-js": "^0.1.0",
+    "solium": "^1.2.2",
+    "truffle": "^4.1.15",
+    "truffle-hdwallet-provider": "^1.0.3",
+    "truffle-test-utils": "^0.1.0",
+    "web3": "^1.0.0-beta.37"
+  }
+}
