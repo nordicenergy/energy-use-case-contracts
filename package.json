@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "quorum-js": "^0.1.0",
+    "request-promise-native": "^1.0.5",
     "solium": "^1.2.2",
     "truffle": "^4.1.15",
     "truffle-hdwallet-provider": "^1.0.3",

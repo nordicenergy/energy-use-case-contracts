@@ -10,17 +10,13 @@ Development Environment
 
 `cd TestNetwork`
 
-`docker-compose up`
+`docker-compose up -d`
+
+go to dir with this repo
 
 `npm i`
 
-copy network id `curl -X POST http://127.0.0.1:20100 -H 'Content-Type: application/json' -d '{"jsonrpc":"2.0","method":"net_version","params":[],"id":1}' | jq '.result'`
-
-copy public key `curl http://127.0.0.1:20104/getNodeList | jq '.[] | select(.nodeName == "node2") | .publicKey'`
-
-set new `network_id` and `privateFor` in `truffle-config.js`
-
-copy address to be unlocked `curl http://127.0.0.1:20104/getAccounts | jq '.[0].accountAddress'`
+copy address to be unlocked `curl -s http://127.0.0.1:20104/getAccounts | jq '.[0].accountAddress'`
 
 `npm run truffle console`
 
