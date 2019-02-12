@@ -9,12 +9,9 @@ module.exports = async (deployer) => {
     )
   );
 
-  const batch = new web3.BatchRequest();
-  const results = accounts.map(a => new Promise((resolve, reject) => {
-    batch.add(energyStore.methods.registerProducer(a.accountAddress).send.request({
-      from: accounts[0].accountAddress,
-    }, (e, r) => e ? reject(e) : resolve(r)));
-  }));
-  batch.execute();
-  return Promise.all(results);
+  return Promise.all(
+    accounts.map(a => energyStore.registerProducer.sendTransaction(a[0].accountAddress, {
+      privateFor: ['+M2bZ0x66ITulGcl9ytecSYIGRC4GGWxC/GphLS8bjo='],
+    }))
+  );
 };

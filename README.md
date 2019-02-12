@@ -16,7 +16,7 @@ go to dir with this repo
 
 `npm i`
 
-copy address to be unlocked `curl -s http://127.0.0.1:20104/getAccounts | jq '.[0].accountAddress'`
+copy address to be unlocked `curl -s http://127.0.0.1:20104/getAccounts | jq '.[0].accountAddress'` (contract owner)
 
 `npm run truffle console`
 
