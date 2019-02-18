@@ -49,6 +49,13 @@ module.exports = {
      gasPrice: 0,
     },
 
+    bc1: {
+      host: '139.59.211.111',
+      port: 22000,
+      network_id: '*',
+      gasPrice: 0,
+    },
+
     // Another network with more advanced options...
     // advanced: {
       // port: 8777,             // Custom port
