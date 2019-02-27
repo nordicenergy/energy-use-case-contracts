@@ -1,5 +1,8 @@
 const EnergyStore = artifacts.require('./EnergyStore.sol');
+const config = require('../truffle-config');
 
-module.exports = (deployer) => {
-  deployer.deploy(EnergyStore, {privateFor: ['4i9VJoVQbypbQ9znw8S3sTnEELTTKSrQxSwmY/QN+10=']});
+module.exports = (deployer, network) => {
+  deployer.deploy(EnergyStore, {
+    privateFor: config.networks[network].privateFor
+  });
 };

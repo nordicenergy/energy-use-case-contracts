@@ -49,11 +49,22 @@ module.exports = {
      gasPrice: 0,
     },
 
-    bc1: {
-      host: '139.59.211.111',
+    lition: {
+      host: '40.113.129.13',
       port: 22000,
       network_id: '*',
       gasPrice: 0,
+      privateFor: [
+        '82L7GALbOQ0+AaWSevznxbEUkS9O5l6uaZ4xA44zNkQ=',
+        '0WHnPIQfh2AW1G8WodDTIYDUdVtsJbp0ggdJI1iJBgA=',
+        'BJf3QT3pKHRJtLWBxQK9JCfVxTZKCdSPx0EofSmaK2g=',
+        'n31HOZPLZgVslPdxk8EMLe1WyoXvB1dywlhDVZSCfGY=',
+        'NRbsAeLSR2NyStEE8OLQ/9oYOddWYQQhaSZrTtknEl4=',
+        '/jJ/8UbnOSerPtRz0GopIxEPjQoNDLzBSNqCKNZUlkk=',
+        'HUMOVDczfCK56CxdrOfmnchTnWIm61Is/ZgnZhXfGU0=',
+        'whFEkLfQhHDQgl+i07nEl4AcxsQHNJL4qF8gpCsMLnU=',
+        '3iQXRLWAVOmQp5GqNTmEIzAtH06LUkyqQ4AO8sLHmxA=',
+      ]
     },
 
     // Another network with more advanced options...
