@@ -19370,8 +19370,14 @@
       "links": {},
       "address": "0x81c7ace3829bd2bd4ce74bbd3c341bd2285f2c30",
       "transactionHash": "0xb2d285781b0ad666655e3653a68c16f24f7a70cf67176f7ba6d3f02aac6415d4"
+    },
+    "78377": {
+      "events": {},
+      "links": {},
+      "address": "0x914b3b49c095d53f9e4a26ad9a9ac93f55882a83",
+      "transactionHash": "0x498faab54702bf76f36216be0da0896aec822424cf48e22e5a122fa290d0b95f"
     }
   },
   "schemaVersion": "2.0.2",
-  "updatedAt": "2019-02-28T17:23:24.255Z"
+  "updatedAt": "2019-03-01T18:04:11.097Z"
 }

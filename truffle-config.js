@@ -49,7 +49,7 @@ module.exports = {
      gasPrice: 0,
     },
 
-    lition: {
+    staging: {
       host: '40.113.129.13',
       port: 22000,
       network_id: '*',
@@ -64,6 +64,24 @@ module.exports = {
         'HUMOVDczfCK56CxdrOfmnchTnWIm61Is/ZgnZhXfGU0=',
         'whFEkLfQhHDQgl+i07nEl4AcxsQHNJL4qF8gpCsMLnU=',
         '3iQXRLWAVOmQp5GqNTmEIzAtH06LUkyqQ4AO8sLHmxA=',
+      ]
+    },
+
+    prod: {
+      host: '40.113.129.13',
+      port: 32000,
+      network_id: '*',
+      gasPrice: 0,
+      privateFor: [
+        'rppVj7BMrvWeIqOHc/PclMkZHinGn0iB9RF5dlFtFE0=',
+        'zN1smWlD88Nf5wNgo6fMhelnKIFRjNpH83FEuv7X/0c=',
+        'qTWufcyKvssczRrVNZn9cc173Saov8QL2To/oo3vrSI=',
+        '3tyIHSeAZ9Ub4xcYSUTWnxROOIGKm5ktwTW1zR/V/mY=',
+        'aeb5i8CpJvvAX6HTaIWetNt2n4fiLI1wmFwd5UEk6ww=',
+        '6jtZHgqb1wwDMtNzu8w9+E8Al2/el+Cz+iDP+rcpazo=',
+        '6zLYS6VGyuN/QZInl49B05Xkrcfxw9Kxtq0yucrHSls=',
+        'WUGeqhUK15++sRgaeh+dPgt1GLTERHL0KCsVsd/Qsng=',
+        'kf8Qo0bXXnYTitAfR0u/r5K4OPTaZ1Alh3kUWamBDUo=',
       ]
     },
 
