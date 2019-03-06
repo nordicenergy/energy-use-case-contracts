@@ -259,18 +259,7 @@ contract EnergyStore is owned, consumerRegistry, producerRegistry {
       // ...and has the right price...
       require(bids[idx].price == aprice);
 
-      // ...and is not overwriting a (by timestamp) later choice...
-      //
-      // NOTE: Only works if a single (same) day is written, not for
-      //       a bunch of writes (with different days)
-      //
-      // NOTE: The timestamp checking logic can be turned off by
-      //       using a timestamp of zero.
-      uint asksIdx = asksIndex[auserID];
-      if ((asks.length > asksIdx) && (asks[asksIdx].day == aday)) {
-        require((atimestamp == 0) || (asks[asksIdx].timestamp < atimestamp));
-        emit DealRevoked(asks[asksIdx].producer, asks[asksIdx].day, asks[asksIdx].price, asks[asksIdx].energy, asks[asksIdx].userID);
-      }
+      // todo: prevent overwriting a later choice...
 
       // ...then record the customer's choice
       asksIndex[auserID] = asks.length;
