@@ -64,6 +64,7 @@ module.exports = {
         'HUMOVDczfCK56CxdrOfmnchTnWIm61Is/ZgnZhXfGU0=',
         'whFEkLfQhHDQgl+i07nEl4AcxsQHNJL4qF8gpCsMLnU=',
         '3iQXRLWAVOmQp5GqNTmEIzAtH06LUkyqQ4AO8sLHmxA=',
+        '8gPRwupCSksCleKQg3dE9myTFj6Ax+59CogAJ6R7Jkk=',
       ]
     },
 
@@ -82,6 +83,7 @@ module.exports = {
         '6zLYS6VGyuN/QZInl49B05Xkrcfxw9Kxtq0yucrHSls=',
         'WUGeqhUK15++sRgaeh+dPgt1GLTERHL0KCsVsd/Qsng=',
         'kf8Qo0bXXnYTitAfR0u/r5K4OPTaZ1Alh3kUWamBDUo=',
+        'BoJfre585wgWoeFSAcMEZ1UaX6okxfYnq5F/1qUdEgI=',
       ]
     },
 

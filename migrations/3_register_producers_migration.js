@@ -14,6 +14,7 @@ module.exports = async (deployer, network) => {
       '0xa466878267434a2d15b6a9dd8ccb83aec2f72cfb',
       '0x63942b9eb0c6784505112e690b66acd4336b9a46',
       '0xd3e99a90ab01ec630c0b248dbf768c91aab1dd00',
+      '0xb0d28147a3d84af06e503699ba5d2ab10d89107c',
     ];
     break;
   case 'prod':
@@ -25,6 +26,7 @@ module.exports = async (deployer, network) => {
       '0x450967cdea14007cbc709045049be39f6fa4cc73',
       '0x6d4803dc40df5c589394202c8b92b276d191ef19',
       '0x18811e85554554346e09f34093c7c78f500da01e',
+      '0xe3f76760a7036bc72ce5d6d85d8332d7c16f2be5',
     ];
     break;
   }
