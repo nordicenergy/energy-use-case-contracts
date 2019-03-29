@@ -1,5 +1,15 @@
-Lition Repository
-=================
+Lition Energy Use Case Smart Contracts
+=================================
+
+<p align="left">
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><br />
+    <a href="https://twitter.com/intent/follow?screen_name=Lition_Block"><img src="https://img.shields.io/twitter/follow/Lition_Block.svg?style=social&label=Follow%20@Lition_Block" alt="Follow on Twitter"></a>
+</p>
+
+## Introduction
+[Lition](https://www.lition.io) is developing the only scalable public-private blockchain with deletable data features, made for commercial products. Designed with Lition's live P2P trading use case, and co-innovated with SAP.
+
+This repository shows the solidity smart contracts for the energy use case, which is the world's first peer to peer energy trading plattform commercially available to a mass market. You can test it at https://demo.lition.de with the credentials demo / demo1234.
 
 Development Environment
 -----------------------
@@ -218,29 +228,19 @@ capacity.
 The current time resolution for offers and choices is days; 1/4 hour
 may be needed in the future.
 
-# Links
+Disclaimer
+-----------
 
-## Blockchain Explorer Links
+This repository is ethereum based smart contract POC for lition energy infrastructure.
 
-### Ropsten testnet
+Implementation is not always optimal as the main aim of this code is proof of decisions,
+problem highlighting. It will be replaced with highly efficient and enterprise ready 
+blockchain solution developed by lition (see https://www.lition.io for more details).  
 
-These links can change. For example, everytime we deploy an update
-during testing, we get a new contract address. To view the current
-contract in a block explorer, you may use
-https://ropsten.etherscan.io/address/0xa705D64d383349F5c198afed7C3292d24EaBa48d
+License:
+-----------
+Copyright 2018-2019 by Lition Technology AG, www.lition.io.
 
-Accounts will change less frequently---we might even continue using
-the same we used for development forever. To see the Lition (contract
-owner) account in a block explorer, you may use
-https://ropsten.etherscan.io/address/0x0101f8cdf2c5ed1d775120a99a701bab5418add8
+Special thanks to core contributor Björn Stein from Quantum-Factory GmbH, https://quantum-factory.de.
 
-Similarly, for one of the producer's address:
-https://ropsten.etherscan.io/address/0x01fd92078dff8bcfe7043e4cf1b2b858faf37ac0
-
-### Live Ethereum (mainnet)
-
-- Contract: https://etherscan.io/address/0x3f3c80ceA2d44419fBDA23Be3575fd403c5b4481
-
-- Lition (owner): https://etherscan.io/address/0x576Db3f8763e660b18424E5C320A81A35a05169F
-
-- One of the producers: https://etherscan.io/address/0x6a90e2c87cb03e74b6af92d2174f9f3813617dac
+Free to use for non-commercial use under the following license: [Attribution-NonCommercial-NoDerivatives 4.0 International](http://creativecommons.org/licenses/by-nc-nd/4.0/)
