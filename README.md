@@ -1,4 +1,4 @@
-Lition Energy Use Case Smart Contracts
+Nordic Energy - Energy Use Case Smart Contracts
 =================================
 
 <p align="left">
@@ -7,9 +7,9 @@ Lition Energy Use Case Smart Contracts
 </p>
 
 ## Introduction
-[Lition](https://www.lition.io) is developing the only scalable public-private blockchain with deletable data features, made for commercial products. Designed with Lition's live P2P trading use case, and co-innovated with SAP.
+[Nordic Energy](https://www.nordicenergy.io) is developing the only scalable public-private blockchain with deletable data features, made for commercial products. Designed with Nordic Energy´s PowerChain P2P trading use case, and co-innovated with SAP.
 
-This repository shows the solidity smart contracts for the energy use case, which is the world's first peer to peer energy trading plattform commercially available to a mass market. You can test it at https://demo.lition.de with the credentials demo / demo1234.
+This repository shows the solidity smart contracts for the energy use case, which is the world's first peer to peer energy trading plattform commercially available to a mass market. You can test it at https://demo.nordicenergy.io (under construction) with the credentials demo / demo1234.
 
 Development Environment
 -----------------------
@@ -62,12 +62,12 @@ See `contracts/EnergyStore.sol`. The functions mentioned above are:
 * `function registerProducer(address aproducer) onlyOwner`
 
   `curl -H "Content-Type: application/json" -X PUT -d '["0x..."]'
-  http://blockchain.lition.io:8889/EnergyStore/registerProducer`
+  http://blockchain.nordicenergy.io:8889/EnergyStore/registerProducer`
 
 * `function registerConsumer(address aconsumer, uint32 auserID) onlyOwner`
 
   `curl -H "Content-Type: application/json" -X PUT -d '["0x...", "1"]'
-  http://blockchain.lition.io:8889/EnergyStore/registerConsumer`
+  http://blockchain.nordicenergy.io:8889/EnergyStore/registerConsumer`
 
 
 * `function offer_energy(uint32 aday, uint32 aprice, uint64 aenergy,
@@ -75,14 +75,14 @@ See `contracts/EnergyStore.sol`. The functions mentioned above are:
 
    `curl -H "Content-Type: application/json" -H "X-Account: 0x..." -X
    PUT -d '["1","1500","1000000","1234"]'
-   http://blockchain.lition.io:8889/EnergyStore/offer_energy`
+   http://blockchain.nordicenergy.io:8889/EnergyStore/offer_energy`
 
 * `function buy_energy(address aproducer, uint32 aday, uint32 aprice,
    uint64 aenergy, uint32 auserID, uint64 atimestamp) onlyOwner`
 
   `curl -H "Content-Type: application/json" -X PUT -d '["0x...",
    "1","1500","1000000","12","1234"]'
-   "http://blockchain.lition.io:8889/EnergyStore/buy_energy(address,uint32,uint32,uint64,uint32,uint64)"`
+   "http://blockchain.nordicenergy.io:8889/EnergyStore/buy_energy(address,uint32,uint32,uint64,uint32,uint64)"`
 
 * (not to be called by Lition, but by a user, not via this server):
   `function buy_energy(address aproducer, uint32 aday, uint32 aprice,
@@ -90,7 +90,7 @@ See `contracts/EnergyStore.sol`. The functions mentioned above are:
 
   `curl -H "Content-Type: application/json" -H "X-Account: 0x..." -X
    PUT -d '["0x...", "1","1500","1000000"]'
-   "http://blockchain.lition.io:8889/EnergyStore/buy_energy(address,uint32,uint32,uint64)"`
+   "http://blockchain.nordicenergy.io:8889/EnergyStore/buy_energy(address,uint32,uint32,uint64)"`
 
 The parameters are:
 
